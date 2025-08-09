@@ -3,6 +3,7 @@ module github.com/abhisheksinghvi09/go-boilerplate
 go 1.24.5
 
 require (
+	github.com/clerk/clerk-sdk-go/v2 v2.3.1
 	github.com/go-playground/validator/v10 v10.27.0
 	github.com/hibiken/asynq v0.25.1
 	github.com/jackc/pgx-zerolog v0.0.0-20230315001418-f978528409eb
@@ -11,9 +12,12 @@ require (
 	github.com/joho/godotenv v1.5.1
 	github.com/knadh/koanf/providers/env v1.1.0
 	github.com/knadh/koanf/v2 v2.2.2
+	github.com/labstack/echo/v4 v4.13.4
 	github.com/newrelic/go-agent/v3 v3.40.1
 	github.com/newrelic/go-agent/v3/integrations/nrpgx5 v1.3.2
+	github.com/newrelic/go-agent/v3/integrations/nrredis-v9 v1.1.2
 	github.com/pkg/errors v0.9.1
+	github.com/redis/go-redis/v9 v9.7.0
 	github.com/resend/resend-go/v2 v2.22.0
 	github.com/rs/zerolog v1.34.0
 )
@@ -25,18 +29,21 @@ require (
 	github.com/Masterminds/sprig/v3 v3.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+	github.com/go-jose/go-jose/v3 v3.0.3 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/huandu/xstrings v1.5.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
+	github.com/labstack/gommon v0.4.2 // indirect
 	github.com/newrelic/go-agent/v3/integrations/logcontext-v2/nrwriter v1.0.2 // indirect
-	github.com/redis/go-redis/v9 v9.7.0 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/spf13/cast v1.7.0 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasttemplate v1.2.2 // indirect
 	golang.org/x/sync v0.16.0 // indirect
-	golang.org/x/time v0.8.0 // indirect
+	golang.org/x/time v0.11.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250728155136-f173205681a0 // indirect
 	google.golang.org/grpc v1.74.2 // indirect
 	google.golang.org/protobuf v1.36.7 // indirect
